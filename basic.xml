@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--노드 중심 OR 어트리뷰트 중심-->
+<SystemEntityStructure>
+    <System name="System1">
+        <AttributeNodeList>
+            <Attribute name="1"> </Attribute>
+            <Attribute name="2"> </Attribute>
+            <Attribute name="3"> </Attribute>
+        </AttributeNodeList>
+        <ANDNodeList>
+            <System name="subsystem">
+                <AttributeNodeList>
+                    <Attribute name="1"> </Attribute>
+                    <Attribute name="2"> </Attribute>
+                    <Attribute name="3"> </Attribute>
+                </AttributeNodeList>
+            </System>
+        </ANDNodeList>
+    </System>
+</SystemEntityStructure>
