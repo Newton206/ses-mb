@@ -2,19 +2,67 @@
 <!--노드 중심 OR 어트리뷰트 중심-->
 <SystemEntityStructure>
     <System name="System1">
-        <AttributeNodeList>
-            <Attribute name="1"> </Attribute>
-            <Attribute name="2"> </Attribute>
-            <Attribute name="3"> </Attribute>
-        </AttributeNodeList>
-        <ANDNodeList>
-            <System name="subsystem">
-                <AttributeNodeList>
-                    <Attribute name="1"> </Attribute>
-                    <Attribute name="2"> </Attribute>
-                    <Attribute name="3"> </Attribute>
-                </AttributeNodeList>
+        <AspectList>
+            <Aspect index="1" name="" value=""/>
+            <Aspect index="2" name="" value=""/>
+            <Aspect index="3" name="" value=""/>
+        </AspectList>
+        <SubSysList>
+            <System name="subsystem" flag="AND">
+                <AspectList>
+                    <Aspect index="1" name="" value=""/>
+                    <Aspect index="2" name="" value=""/>
+                    <Aspect index="3" name="" value=""/>
+                </AspectList>
+                <SubSysList>
+                    <System name="subsystem" flag="AND">
+                        <AspectList>
+                            <Aspect index="1" name="" value=""/>
+                            <Aspect index="2" name="" value=""/>
+                            <Aspect index="3" name="" value=""/>
+                        </AspectList>
+                    </System>
+                    <System name="subsystem" flag="AND">
+                        <AspectList>
+                            <Aspect index="1" name="" value=""/>
+                            <Aspect index="2" name="" value=""/>
+                            <Aspect index="3" name="" value=""/>
+                        </AspectList>
+                    </System>
+                </SubSysList>
             </System>
-        </ANDNodeList>
+        </SubSysList>
+    </System>
+    <System name="System2">
+        <AspectList>
+            <Aspect index="1" name="" value=""/>
+            <Aspect index="2" name="" value=""/>
+            <Aspect index="3" name="" value=""/>
+        </AspectList>
+        <SubSysList>
+            <System name="subsystem" flag="AND">
+                <AspectList>
+                    <Aspect index="1" name="" value=""/>
+                    <Aspect index="2" name="" value=""/>
+                    <Aspect index="3" name="" value=""/>
+                </AspectList>
+                <SubSysList>
+                    <System name="subsystem" flag="AND">
+                        <AspectList>
+                            <Aspect index="1" name="" value=""/>
+                            <Aspect index="2" name="" value=""/>
+                            <Aspect index="3" name="" value=""/>
+                        </AspectList>
+                    </System>
+                    <System name="subsystem" flag="AND">
+                        <AspectList>
+                            <Aspect index="1" name="" value=""/>
+                            <Aspect index="2" name="" value=""/>
+                            <Aspect index="3" name="" value=""/>
+                        </AspectList>
+                    </System>
+                </SubSysList>
+            </System>
+        </SubSysList>
     </System>
 </SystemEntityStructure>
